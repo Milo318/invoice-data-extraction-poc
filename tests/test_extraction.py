@@ -6,6 +6,8 @@ import unittest
 from invoice_extractor.extractor import extract_invoice
 from invoice_extractor.generator import generate_pdfs
 from invoice_extractor.ai import validate_ai_invoice
+from invoice_extractor.autonomy import process_invoice_autonomously
+from invoice_extractor.autonomous_benchmark import generate_cases
 
 
 SOURCE = Path(__file__).parents[1] / "data" / "mock" / "invoices.json"
@@ -37,6 +39,24 @@ class InvoiceTests(unittest.TestCase):
         validated = validate_ai_invoice(raw)
         self.assertTrue(validated["reconciled"])
         self.assertEqual(validated["extraction_stage"], "ai")
+
+    def test_autonomous_invoice_posts_without_human_approval(self) -> None:
+        case = generate_cases(1)[0]
+        outcome = process_invoice_autonomously(case.text, case.truth)
+        self.assertTrue(outcome.approved)
+        self.assertEqual(outcome.data["posting_status"], "posted")
+        self.assertFalse(outcome.manual_approval_required)
+
+    def test_ungrounded_ai_invoice_self_repairs(self) -> None:
+        case = generate_cases(1)[0]
+        wrong = {**case.truth, "total": "999.00"}
+        outcome = process_invoice_autonomously(case.text, wrong)
+        self.assertTrue(outcome.approved)
+        self.assertEqual(outcome.source, "grounded_self_repair")
+        self.assertEqual(outcome.data["total"], case.truth["total"])
+
+    def test_autonomous_benchmark_has_120_pdf_cases(self) -> None:
+        self.assertEqual(len(generate_cases(120)), 120)
 
 
 if __name__ == "__main__":
