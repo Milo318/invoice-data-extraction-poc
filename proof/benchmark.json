@@ -1,0 +1,9 @@
+{
+  "synthetic_data": true,
+  "pdfs_processed": 10,
+  "scalar_fields_compared": 80,
+  "field_accuracy_percent": 100.0,
+  "financial_reconciliation_percent": 100.0,
+  "processing_time_ms": 23.1,
+  "average_ms_per_pdf": 2.31
+}

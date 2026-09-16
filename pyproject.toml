@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "invoice-data-extraction-poc"
+version = "1.0.0"
+description = "Validated PDF invoice extraction with deterministic and AI stages."
+requires-python = ">=3.11"
+dependencies = ["pypdf>=6,<7", "reportlab>=4,<5"]
+
+[project.scripts]
+invoice-extractor = "invoice_extractor.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
