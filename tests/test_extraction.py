@@ -55,8 +55,10 @@ class InvoiceTests(unittest.TestCase):
         self.assertEqual(outcome.source, "grounded_self_repair")
         self.assertEqual(outcome.data["total"], case.truth["total"])
 
-    def test_autonomous_benchmark_has_120_pdf_cases(self) -> None:
-        self.assertEqual(len(generate_cases(120)), 120)
+    def test_autonomous_benchmark_has_200_pdf_cases(self) -> None:
+        cases = generate_cases(200)
+        self.assertEqual(len(cases), 200)
+        self.assertEqual(sum(case.challenge != "standard" for case in cases), 100)
 
 
 if __name__ == "__main__":

@@ -1,120 +1,200 @@
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-000", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-001", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-002", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-003", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-004", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-005", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-006", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-007", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-008", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-009", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-010", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-011", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-012", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-013", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-014", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-015", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-016", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-017", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-018", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-019", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-020", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-021", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-022", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-023", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-024", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-025", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-026", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-027", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-028", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-029", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-030", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-031", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-032", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-033", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-034", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-035", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-036", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-037", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-038", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-039", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-040", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-041", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-042", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-043", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-044", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-045", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-046", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-047", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-048", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-049", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-050", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-051", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-052", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-053", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-054", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-055", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-056", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-057", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-058", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-059", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-060", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-061", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-062", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-063", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-064", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-065", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-066", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-067", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-068", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-069", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-070", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-071", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-072", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-073", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-074", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-075", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-076", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-077", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-078", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-079", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-080", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-081", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-082", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-083", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-084", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-085", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-086", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-087", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-088", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-089", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-090", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-091", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-092", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-093", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-094", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-095", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-096", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-097", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-098", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-099", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-100", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-101", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-102", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-103", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-104", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-105", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-106", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-107", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-108", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-109", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-110", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-111", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-112", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-113", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-114", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-115", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-116", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-117", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-118", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
-{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-119", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-000", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-001", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-002", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-003", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-004", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-005", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-006", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-007", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-008", "challenge": "standard", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-009", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-010", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-011", "challenge": "decoys_reordered_three_items", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-012", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-013", "challenge": "decoys_reordered_three_items", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-014", "challenge": "standard", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-015", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-016", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-017", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-018", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-019", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-020", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-021", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-022", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-023", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-024", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-025", "challenge": "decoys_reordered_three_items", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-026", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-027", "challenge": "decoys_reordered_three_items", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-028", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-029", "challenge": "decoys_reordered_three_items", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-030", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-031", "challenge": "decoys_reordered_three_items", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-032", "challenge": "standard", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-033", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-034", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-035", "challenge": "decoys_reordered_three_items", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-036", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-037", "challenge": "decoys_reordered_three_items", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-038", "challenge": "standard", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-039", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-040", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-041", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-042", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-043", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-044", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-045", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-046", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-047", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-048", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-049", "challenge": "decoys_reordered_three_items", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-050", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-051", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-052", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-053", "challenge": "decoys_reordered_three_items", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-054", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-055", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-056", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-057", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-058", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-059", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-060", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-061", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-062", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-063", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-064", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-065", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-066", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-067", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-068", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-069", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-070", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-071", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-072", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-073", "challenge": "decoys_reordered_three_items", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-074", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-075", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-076", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-077", "challenge": "decoys_reordered_three_items", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-078", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-079", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-080", "challenge": "standard", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-081", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-082", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-083", "challenge": "decoys_reordered_three_items", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-084", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-085", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-086", "challenge": "standard", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-087", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-088", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-089", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-090", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-091", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-092", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-093", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-094", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-095", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-096", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-097", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-098", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-099", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-100", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-101", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-102", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-103", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-104", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-105", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-106", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-107", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-108", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-109", "challenge": "decoys_reordered_three_items", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-110", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-111", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-112", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-113", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-114", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-115", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-116", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-117", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-118", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-119", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-120", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-121", "challenge": "decoys_reordered_three_items", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-122", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-123", "challenge": "decoys_reordered_three_items", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-124", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-125", "challenge": "decoys_reordered_three_items", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-126", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-127", "challenge": "decoys_reordered_three_items", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-128", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-129", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-130", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-131", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-132", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-133", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-134", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-135", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-136", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-137", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-138", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-139", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-140", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-141", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-142", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-143", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-144", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-145", "challenge": "decoys_reordered_three_items", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-146", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-147", "challenge": "decoys_reordered_three_items", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-148", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-149", "challenge": "decoys_reordered_three_items", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-150", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-151", "challenge": "decoys_reordered_three_items", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-152", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-153", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-154", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-155", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-156", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-157", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-158", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-159", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-160", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-161", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-162", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-163", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-164", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-165", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-166", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-167", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-168", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-169", "challenge": "decoys_reordered_three_items", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-170", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-171", "challenge": "decoys_reordered_three_items", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-172", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-173", "challenge": "decoys_reordered_three_items", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-174", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-175", "challenge": "decoys_reordered_three_items", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-176", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-177", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-178", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-179", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-180", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-181", "challenge": "decoys_reordered_three_items", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-182", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-183", "challenge": "decoys_reordered_three_items", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-184", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-185", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-186", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-187", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-188", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-189", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-190", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-191", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-192", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-193", "challenge": "decoys_reordered_three_items", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-194", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-195", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-196", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": false, "approved": true, "case_id": "INVOICE-197", "challenge": "decoys_reordered_three_items", "decision_source": "grounded_self_repair", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-198", "challenge": "standard", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}
+{"ai_direct_pass": true, "approved": true, "case_id": "INVOICE-199", "challenge": "decoys_reordered_three_items", "decision_source": "ai", "financially_reconciled": true, "truth_match": true}

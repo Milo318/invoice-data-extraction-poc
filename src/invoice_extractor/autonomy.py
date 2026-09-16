@@ -1,8 +1,9 @@
 from __future__ import annotations
 
-from dataclasses import asdict, dataclass
-from decimal import Decimal, InvalidOperation
+from dataclasses import dataclass
 import re
+
+from .extractor import amount, totals_reconcile
 
 
 LABELS = {
@@ -23,11 +24,6 @@ class AutonomousInvoiceOutcome:
     checks: tuple[str, ...]
     manual_approval_required: bool = False
 
-    def to_dict(self) -> dict[str, object]:
-        result = asdict(self)
-        result["checks"] = list(self.checks)
-        return result
-
 
 def grounded_extract(text: str) -> dict[str, object]:
     result: dict[str, object] = {}
@@ -43,23 +39,19 @@ def grounded_extract(text: str) -> dict[str, object]:
 def _normalized(data: dict[str, object]) -> dict[str, object]:
     normalized = {key: str(data.get(key, "")).strip() for key in ("vendor", "invoice_number", "currency")}
     for key in ("subtotal", "tax", "total"):
-        normalized[key] = f"{Decimal(str(data.get(key, 'NaN'))):.2f}"
+        normalized[key] = f"{amount(data.get(key)):.2f}"
     line_totals = data.get("line_totals", [])
     if not isinstance(line_totals, list):
         raise ValueError("line_totals must be a list")
-    normalized["line_totals"] = [f"{Decimal(str(value)):.2f}" for value in line_totals]
+    normalized["line_totals"] = [f"{amount(value):.2f}" for value in line_totals]
     return normalized
 
 
 def _reconciles(data: dict[str, object]) -> bool:
     try:
-        subtotal = Decimal(str(data["subtotal"]))
-        tax = Decimal(str(data["tax"]))
-        total = Decimal(str(data["total"]))
-        line_sum = sum((Decimal(str(value)) for value in data["line_totals"]), Decimal("0"))
-    except (KeyError, InvalidOperation, TypeError):
+        return totals_reconcile(data["subtotal"], data["tax"], data["total"], data["line_totals"])
+    except (KeyError, TypeError):
         return False
-    return line_sum == subtotal and subtotal + tax == total
 
 
 def process_invoice_autonomously(text: str, ai_proposal: dict[str, object] | None) -> AutonomousInvoiceOutcome:
@@ -70,7 +62,7 @@ def process_invoice_autonomously(text: str, ai_proposal: dict[str, object] | Non
     try:
         ai_data = _normalized(ai_proposal or {})
         grounded_data = _normalized(grounded)
-    except (ValueError, InvalidOperation):
+    except ValueError:
         ai_data = {}
         grounded_data = _normalized(grounded)
     if ai_data != grounded_data or not _reconciles(ai_data):

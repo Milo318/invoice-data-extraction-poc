@@ -3,7 +3,8 @@ from __future__ import annotations
 import json
 import os
 import urllib.request
-from decimal import Decimal, InvalidOperation
+
+from .extractor import invoice_from_dict
 
 
 def extract_unstructured_invoice(text: str) -> dict[str, object]:
@@ -33,25 +34,4 @@ def extract_unstructured_invoice(text: str) -> dict[str, object]:
 
 def validate_ai_invoice(raw: dict[str, object]) -> dict[str, object]:
     """Validate the model's schema and independently reconcile all financial values."""
-    required = {"vendor", "invoice_number", "issue_date", "due_date", "currency", "items", "subtotal", "tax", "total"}
-    missing = required - raw.keys()
-    if missing or not isinstance(raw.get("items"), list) or not raw["items"]:
-        raise ValueError(f"AI invoice failed schema validation; missing={sorted(missing)}")
-    try:
-        subtotal = Decimal(str(raw["subtotal"]))
-        tax = Decimal(str(raw["tax"]))
-        total = Decimal(str(raw["total"]))
-        item_sum = Decimal("0")
-        multiplication_valid = True
-        for item in raw["items"]:
-            quantity = Decimal(str(item["quantity"]))
-            unit_price = Decimal(str(item["unit_price"]))
-            line_total = Decimal(str(item["line_total"]))
-            multiplication_valid = multiplication_valid and quantity * unit_price == line_total
-            item_sum += line_total
-    except (InvalidOperation, KeyError, TypeError) as exc:
-        raise ValueError("AI invoice contains invalid financial values") from exc
-    result = dict(raw)
-    result["reconciled"] = multiplication_valid and item_sum == subtotal and subtotal + tax == total
-    result["extraction_stage"] = "ai"
-    return result
+    return invoice_from_dict(raw, extraction_stage="ai").to_dict()
