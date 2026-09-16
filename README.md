@@ -6,6 +6,8 @@
 
 A proof of concept that generates realistic sample invoices, extracts structured fields from the PDFs, and validates every financial relationship before accepting the result. An optional AI fallback supports unfamiliar layouts while deterministic reconciliation remains the final control.
 
+**Public repository:** https://github.com/Milo318/invoice-data-extraction-poc
+
 > **Data notice:** all vendors, invoice numbers, line items, PDFs, and totals are synthetic mock data. Generated PDFs are visibly labeled as demo documents.
 
 ## Proof of work
