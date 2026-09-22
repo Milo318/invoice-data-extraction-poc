@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "invoice-data-extraction-poc"
-version = "1.0.0"
+version = "1.1.0"
 description = "Validated PDF invoice extraction with deterministic and AI stages."
 requires-python = ">=3.11"
 dependencies = ["pypdf>=6,<7", "reportlab>=4,<5"]
@@ -15,3 +15,12 @@ invoice-autonomy-benchmark = "invoice_extractor.autonomous_benchmark:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[project.optional-dependencies]
+dev = ["ruff==0.16.8"]
+
+[tool.ruff]
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]

@@ -1,114 +1,72 @@
-# Autonomous PDF Invoice Processing
+# Validated PDF Invoice Extraction
 
-![Proof-of-work benchmark card](proof/portfolio-card.png)
+Extract invoice data with exact quantities, financial checks and explicit quarantine.
 
-[![Proof](https://github.com/Milo318/invoice-data-extraction-poc/actions/workflows/ci.yml/badge.svg)](https://github.com/Milo318/invoice-data-extraction-poc/actions/workflows/ci.yml)
+[![Quality](https://github.com/Milo318/invoice-data-extraction-poc/actions/workflows/ci.yml/badge.svg)](https://github.com/Milo318/invoice-data-extraction-poc/actions/workflows/ci.yml)
 
-A proof of concept that generates realistic sample invoices, extracts structured fields from PDFs, and validates every financial relationship before accepting the result. Autonomous AI supports unfamiliar layouts while deterministic grounding and reconciliation remain the final control.
+## What the current implementation guarantees
 
-**Public repository:** https://github.com/Milo318/invoice-data-extraction-poc
+- Preserve fractional quantities instead of silently converting them to integers.
+- Validate nonempty identities, ISO dates, supported currencies and finite monetary values.
+- Reconcile quantity × unit price, line sums, subtotal, tax and total.
+- Reject missing or conflicting labeled document fields.
+- Process existing PDFs and isolate malformed documents into a quarantine report.
+- Return `ready_for_posting` for accepted text extraction; no external accounting posting occurs.
 
-> **Data notice:** all vendors, invoice numbers, line items, PDFs, and totals are synthetic mock data. Generated PDFs are visibly labeled as demo documents.
+## Run
 
-## Autonomous AI proof
-
-The upgraded workflow generates and reads actual PDFs, asks a live local model to extract invoice fields, grounds every proposed value against document text, reconciles line totals, tax, and final total, generates a duplicate key, and posts or quarantines automatically. Ungrounded model output is replaced by a deterministic grounded extraction without human approval.
-
-The committed [live-model benchmark](proof/autonomous-benchmark.json) and [200 case-level decisions](proof/autonomous-cases.jsonl) were generated with `granite4.1:3b` through Ollama:
-
-> **How to read 100%:** the model alone produced 116 strict field-for-field passes. The final 200 of 200 result belongs to the complete system after normalization, document grounding, automatic replacement, and independent financial reconciliation. Expected outcomes are used for scoring only, not supplied to the runtime controller.
-
-| Autonomous acceptance check | Result |
-|---|---:|
-| PDFs generated, read, and evaluated | 200 |
-| Strict raw AI field-for-field passes | 116 / 200 |
-| AI outputs accepted after normalization and grounding | 164 / 200 |
-| Grounded automatic self-repairs | 36 |
-| Decoy / reordered-document stress PDFs | 100 / 100 approved |
-| Financially reconciled cases | 200 / 200 |
-| Final machine-approved cases | 200 / 200 |
-| Final system approval rate | **100%** |
-| Human approvals | **0** |
-
-```bash
-python -m invoice_extractor.autonomous_benchmark --cases 200 --model granite4.1:3b
-```
-
-Reproduction requires a running Ollama service with the selected model installed.
-
-Half of the PDFs contain a plausible false amount, an untrusted embedded instruction, reordered totals, three line items, multiple currencies, and varying tax rates. Approval still requires exact document grounding and financial reconciliation.
-
-The low strict raw-model score is retained intentionally: it demonstrates why accounting automation must not trust model output directly. Approval measures the complete grounded system. Every approved invoice must match the generated truth and pass independent arithmetic reconciliation.
-
-## Proof of work
-
-The [committed benchmark](proof/benchmark.json) compares extracted values with the source-of-truth JSON:
-
-| Check | Measured result |
-|---|---:|
-| PDFs generated and processed | 10 |
-| Scalar fields compared | 80 |
-| Field accuracy on generated fixtures | 100% |
-| Financial reconciliation | 100% |
-| Average extraction time | 2.31 ms/PDF |
-| Automated tests | 7 passing |
-
-Reconciliation verifies three independent conditions: quantity × unit price equals each line total, line totals equal the subtotal, and subtotal + tax equals the final total. The benchmark covers a known layout and is not a claim of universal document support.
-
-### Reproduce the evidence
+Requires Python 3.11 or later.
 
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
-python -m pip install -e .
-python -m unittest discover -s tests -v
+python -m pip install -e '.[dev]'
 python -m invoice_extractor.cli
-python -m invoice_extractor.benchmark
+python -m invoice_extractor.cli --input /path/to/pdfs --output output/invoices.json
+python -m invoice_extractor.benchmark --output /tmp/invoice-benchmark.json
 ```
 
-The demo generates ten PDFs under `output/pdfs/` and writes normalized invoice JSON to `output/extracted.json`.
+## Scope and integration contract
 
-## How it works
+Without `--input`, the CLI generates and extracts the bundled synthetic demo PDFs. With
+`--input`, it reads an existing PDF or directory. Successful rows go to the requested JSON;
+failures go to `<output-stem>.quarantine.json`. Any quarantined input produces exit code 1
+while preserving successful results.
 
-```text
-Synthetic invoice truth data
-        ↓
-Generated, visibly labeled PDFs
-        ↓
-PDF text extraction
-        ↓
-Field and line-item parsing
-        ↓
-Financial reconciliation
-        ↓
-Structured JSON or explicit rejection
-```
+The deterministic parser supports labeled text PDFs. Supported currencies are EUR, USD,
+GBP and CHF, using nonnegative amounts with at most two decimal places. Quantities support
+up to six decimal places. Scans need a separate OCR adapter; credit notes and arbitrary
+layouts are outside the current contract.
 
-### Stage 1 — deterministic core
+`--ai-fallback` uses `LLM_API_KEY` (optional `LLM_MODEL`/`LLM_API_URL`). Its arithmetic-checked
+results carry `review_required: true`: arithmetic alone cannot prove that proposed values
+occur in the document. The separate grounded text controller rejects unknown or ambiguous
+documents and returns a posting decision. A duplicate key is only an identity hint;
+actual duplicate detection requires persistent storage.
 
-Known document layouts use explicit field patterns and decimal arithmetic. Missing required fields fail loudly instead of silently producing incomplete output. The result includes a `reconciled` flag so downstream automation can enforce review rules.
-
-### Stage 2 — autonomous AI extraction and posting
-
-For unfamiliar layouts, AI proposes the document structure. The autonomous controller grounds each value in the extracted document, replaces mismatches, reconciles all arithmetic, creates a duplicate key, and chooses `posted` or `quarantined` without an approval queue.
+## Verification
 
 ```bash
-export LLM_API_KEY="..."
-python -m invoice_extractor.cli --ai-fallback
+ruff check .
+ruff format --check .
+python -m unittest discover -s tests -v
 ```
 
-## Evidence map
+CI runs these checks and a fresh deterministic benchmark on Python 3.11 and 3.13.
+Tests include malformed inputs, known regression cases and mocked provider failures.
+No credentials or live model calls are needed for the test suite. Provider responses have
+size limits, JSON-object validation and bounded retries for transient failures.
 
-- [`data/mock/invoices.json`](data/mock/invoices.json) — labeled synthetic source of truth
-- [`tests/test_extraction.py`](tests/test_extraction.py) — extraction and reconciliation checks
-- [`proof/benchmark.json`](proof/benchmark.json) — field comparison and timing results
-- [`proof/autonomous-benchmark.json`](proof/autonomous-benchmark.json) — live-model PDF acceptance summary
-- [`proof/autonomous-cases.jsonl`](proof/autonomous-cases.jsonl) — all 200 posting decisions
-- [`proof/portfolio-card.png`](proof/portfolio-card.png) — portfolio-ready evidence image
-- [GitHub Actions workflow](.github/workflows/ci.yml) — regenerates PDFs and verifies extraction on every push
+## Benchmark evidence
 
-## Production extension points
+All bundled datasets are synthetic. `proof/benchmark.json` records a deterministic demo
+run; it does not establish performance on arbitrary customer data. The older
+`proof/autonomous-benchmark.json`, case JSONL and portfolio image are **historical v1.0.0
+artifacts**, not quality or accuracy guarantees for v1.1.0. Their archive-consistency test
+does not execute the current controller or a live model.
 
-Production work would add OCR for scanned documents, supplier-specific adapters, automatic vendor queries for unresolved exceptions, duplicate-invoice detection, currency/tax rules, encrypted storage, and accounting-platform integration.
+Use the current regression suite to verify the current behavior. A fresh live-model
+benchmark is optional and requires a configured Ollama instance; none is implied by a green
+CI result. [Changes and compatibility](CHANGELOG.md).
 
-Built by **Milo Geller** · MIT licensed.
+Built by **Milo Geller** · [MIT licensed](LICENSE).

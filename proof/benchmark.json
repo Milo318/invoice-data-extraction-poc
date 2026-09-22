@@ -4,6 +4,6 @@
   "scalar_fields_compared": 80,
   "field_accuracy_percent": 100.0,
   "financial_reconciliation_percent": 100.0,
-  "processing_time_ms": 25.883,
-  "average_ms_per_pdf": 2.588
+  "processing_time_ms": 34.084,
+  "average_ms_per_pdf": 3.408
 }

@@ -31,20 +31,34 @@ class InvoiceTests(unittest.TestCase):
 
     def test_ai_result_is_independently_reconciled(self) -> None:
         raw = {
-            "vendor": "Mock Vendor", "invoice_number": "MOCK-AI-1", "issue_date": "2026-01-01",
-            "due_date": "2026-02-01", "currency": "EUR",
-            "items": [{"description": "Service", "quantity": 2, "unit_price": "100.00", "line_total": "200.00"}],
-            "subtotal": "200.00", "tax": "38.00", "total": "238.00",
+            "vendor": "Mock Vendor",
+            "invoice_number": "MOCK-AI-1",
+            "issue_date": "2026-01-01",
+            "due_date": "2026-02-01",
+            "currency": "EUR",
+            "items": [
+                {
+                    "description": "Service",
+                    "quantity": 2,
+                    "unit_price": "100.00",
+                    "line_total": "200.00",
+                }
+            ],
+            "subtotal": "200.00",
+            "tax": "38.00",
+            "total": "238.00",
         }
         validated = validate_ai_invoice(raw)
         self.assertTrue(validated["reconciled"])
         self.assertEqual(validated["extraction_stage"], "ai")
 
-    def test_autonomous_invoice_posts_without_human_approval(self) -> None:
+    def test_autonomous_invoice_prepares_a_posting_without_external_side_effects(
+        self,
+    ) -> None:
         case = generate_cases(1)[0]
         outcome = process_invoice_autonomously(case.text, case.truth)
         self.assertTrue(outcome.approved)
-        self.assertEqual(outcome.data["posting_status"], "posted")
+        self.assertEqual(outcome.data["posting_status"], "ready_for_posting")
         self.assertFalse(outcome.manual_approval_required)
 
     def test_ungrounded_ai_invoice_self_repairs(self) -> None:

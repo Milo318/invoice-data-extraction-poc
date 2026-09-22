@@ -9,7 +9,9 @@ def generate_pdfs(source: Path, destination: Path) -> list[Path]:
         from reportlab.lib.pagesizes import A4
         from reportlab.pdfgen import canvas
     except ImportError as exc:
-        raise RuntimeError("Install project dependencies before generating PDF fixtures") from exc
+        raise RuntimeError(
+            "Install project dependencies before generating PDF fixtures"
+        ) from exc
     records = json.loads(source.read_text(encoding="utf-8"))
     destination.mkdir(parents=True, exist_ok=True)
     generated: list[Path] = []
@@ -38,7 +40,11 @@ def generate_pdfs(source: Path, destination: Path) -> list[Path]:
         y -= 16
         pdf.setFont("Helvetica", 9)
         for item in invoice["items"]:
-            pdf.drawString(54, y, f"{item['description']} | {item['quantity']} | {item['unit_price']:.2f} | {item['line_total']:.2f}")
+            pdf.drawString(
+                54,
+                y,
+                f"{item['description']} | {item['quantity']} | {item['unit_price']:.2f} | {item['line_total']:.2f}",
+            )
             y -= 16
         y -= 8
         pdf.drawString(54, y, f"Subtotal: {invoice['subtotal']:.2f}")
