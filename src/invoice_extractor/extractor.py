@@ -94,14 +94,14 @@ class Invoice:
 
 
 FIELD_PATTERNS = {
-    "vendor": r"^Vendor:[ \t]*(.+)",
-    "invoice_number": r"^Invoice Number:[ \t]*(\S+)",
-    "issue_date": r"^Issue Date:[ \t]*(\d{4}-\d{2}-\d{2})",
-    "due_date": r"^Due Date:[ \t]*(\d{4}-\d{2}-\d{2})",
-    "currency": r"^Currency:[ \t]*([A-Z]{3})",
-    "subtotal": r"^Subtotal:[ \t]*([\d.]+)",
-    "tax": r"^Tax:[ \t]*([\d.]+)",
-    "total": r"^Total:[ \t]*([\d.]+)",
+    "vendor": r"^Vendor:[ \t]*(.+)[ \t]*$",
+    "invoice_number": r"^Invoice Number:[ \t]*(\S+)[ \t]*$",
+    "issue_date": r"^Issue Date:[ \t]*(\d{4}-\d{2}-\d{2})[ \t]*$",
+    "due_date": r"^Due Date:[ \t]*(\d{4}-\d{2}-\d{2})[ \t]*$",
+    "currency": r"^Currency:[ \t]*([A-Z]{3})[ \t]*$",
+    "subtotal": r"^Subtotal:[ \t]*([\d.]+)[ \t]*$",
+    "tax": r"^Tax:[ \t]*([\d.]+)[ \t]*$",
+    "total": r"^Total:[ \t]*([\d.]+)[ \t]*$",
 }
 
 

@@ -110,3 +110,17 @@ class ContractTests(unittest.TestCase):
         outcome = process_invoice_autonomously(text, None)
         self.assertTrue(outcome.approved)
         self.assertEqual(outcome.data["posting_status"], "ready_for_posting")
+
+
+class CompleteValueTests(unittest.TestCase):
+    def test_line_totals_cannot_be_truncated_to_two_places(self):
+        text = "Vendor: Demo\nInvoice Number: A\nCurrency: EUR\nSubtotal: 100.00\nTax: 19.00\nTotal: 119.00\nLine Total: 100.001"
+        self.assertFalse(process_invoice_autonomously(text, None).approved)
+
+    def test_numeric_field_suffix_cannot_be_ignored(self):
+        text = "Vendor: Demo\nInvoice Number: A\nIssue Date: 2026-01-01\nDue Date: 2026-02-01\nCurrency: EUR\nWork | 1 | 100.00 | 100.00\nSubtotal: 100.00\nTax: 19.00\nTotal: 119.00invalid"
+        with (
+            patch("invoice_extractor.extractor.extract_text", return_value=text),
+            self.assertRaises(ValueError),
+        ):
+            extract_invoice(Path("unused.pdf"))

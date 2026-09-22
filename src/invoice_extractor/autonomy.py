@@ -38,7 +38,7 @@ def grounded_extract(text: str) -> dict[str, object]:
             raise ValueError(f"Missing or ambiguous document field: {field}")
         result[field] = matches[0].group(1).strip()
     result["line_totals"] = re.findall(
-        r"Line Total\s*:\s*([0-9]+(?:\.[0-9]{2})?)", text, re.IGNORECASE
+        r"Line Total[ \t]*:[ \t]*([^\n]+)", text, re.IGNORECASE
     )
     return result
 
